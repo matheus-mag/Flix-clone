@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -38,6 +38,10 @@ header nav a:hover{
     color: #fff;
 }
 
+main .container{
+    margin-left: 30px;
+}
+
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%), url("../img/fundo.jpg");
@@ -61,6 +65,10 @@ header nav a:hover{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
+.filme-principal .container{
+    width: 70%;
+}
+
 .button{
     background-color: rgba(0,0,0,0.5);
     border: none;
@@ -79,4 +87,14 @@ header nav a:hover{
 
 .button i{
     margin-right: 7px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filmes{
+    margin-top: 7px;
 }
